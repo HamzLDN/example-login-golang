@@ -24,7 +24,7 @@ go get golang.org/x/crypto/bcrypt
 go get github.com/go-sql-driver/mysql
 ```
 
-Inside of **main.go** line **111** replace with your own credentials:
+Inside of **main.go** line **117** replace with your own credentials:
 
 ```go
 db, err = sql.Open("mysql", "myUsername:myPassword@tcp(127.0.0.1:3306)/myDatabase")
